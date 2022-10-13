@@ -1,0 +1,23 @@
+echo "The script you just executed will install apache!"
+sleep 3
+dnf install httpd -y
+sleep 4
+systemctl enable httpd
+sleep 2
+systemctl start httpd
+sleep 1
+systemctl status httpd | grep "active (running)"
+echo "Apache has been installed by the script!"
+echo "To go to your website paste your ipv4 below in your url!"
+curl ifconfig.me
+echo "Good job you have finished installing Apache!"
+sleep 3
+clear
+echo "We will be adding a html to our Apache website now!"
+sleep 2
+curl https://nicepage.com/ht/897701/full-service-software-development-company-html-template# >> /var/www/html/index.html
+echo "We have added a template!"
+cd
+sleep 2
+clear
+
