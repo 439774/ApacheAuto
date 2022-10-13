@@ -15,7 +15,7 @@ sleep 3
 clear
 echo "We will be adding a html to our Apache website now!"
 sleep 2
-curl https://nicepage.com/ht/897701/full-service-software-development-company-html-template# >> /var/www/html/index.html
+curl https://nicepage.com/ht/2286551/strategy-development-solution-html-template# >> /var/www/html/index.html
 echo "We have added a template!"
 cd
 sleep 2
